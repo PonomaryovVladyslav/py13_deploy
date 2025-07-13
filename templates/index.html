@@ -43,6 +43,6 @@
     <form method="post" action="{% url 'note-create' %}">
         {% csrf_token %}
         {{ create_form }}
-        <input type="submit" value="{% translate 'Create' %}">
+        <input class="red-button" type="submit" value="{% translate 'Create' %}">
     </form>
 {% endblock %}
