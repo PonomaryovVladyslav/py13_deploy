@@ -64,17 +64,6 @@ WSGI_APPLICATION = 'py_13_notes.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'USER': 'py13user',
-        'PASSWORD': 'mypass',
-        'NAME': 'py13db',
-        'TEST': {
-            'NAME': 'py13db_test',
-        },
-    },
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
