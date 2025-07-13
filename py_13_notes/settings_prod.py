@@ -4,7 +4,7 @@ import os
 SECRET_KEY = 'i^m-t@4p9rb%pr_m1*qv$3zb%3$y5iyp$^ay1nodp(r8g1e*81'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['3.120.147.160']
 
